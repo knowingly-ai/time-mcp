@@ -11,18 +11,20 @@ Built by KnowinglyAI - March 2026
 - Windows: Run `deploy.bat`
 
 **Manual Way:**
+1. Download the project files
+2. Open terminal in the folder
+3. Login to Cloudflare
 ```bash
-# 1. Download the project files
-# 2. Open terminal in the folder
-# 3. Login to Cloudflare
 npx wrangler login
-
-# 4. Deploy
-npx wrangler deploy
-
-# 5. Copy the URL it gives you
-# 6. Add to Claude Desktop config (see step 2 below)
 ```
+
+4. Deploy
+```bash
+npx wrangler deploy
+```
+
+5. Copy the URL it gives you
+6. Add to Claude Desktop config (see step 2 below)
 
 That's it! No account ID needed, no complex setup.
 
