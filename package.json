@@ -1,0 +1,26 @@
+{
+  "name": "time-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for checking current time in any timezone",
+  "type": "module",
+  "main": "time-mcp-server.js",
+  "bin": {
+    "time-mcp": "./time-mcp-server.js"
+  },
+  "scripts": {
+    "start": "node time-mcp-server.js"
+  },
+  "keywords": [
+    "mcp",
+    "time",
+    "timezone",
+    "ai-companion"
+  ],
+  "authors": [
+    "KnowinglyAI"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  }
+}

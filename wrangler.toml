@@ -1,0 +1,7 @@
+name = "time-mcp"
+main = "time-mcp-worker.js"
+compatibility_date = "2024-01-01"
+
+# Account ID - users will need to add their own
+# Get this from Cloudflare dashboard or run: npx wrangler whoami
+# account_id = "your-account-id-here"
